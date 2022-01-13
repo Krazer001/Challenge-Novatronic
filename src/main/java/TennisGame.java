@@ -83,7 +83,7 @@ public class TennisGame {
         return  scoreBoard.show(this);
     }
 
-    public String getHighScorerPlayerName() {
+    public String getAdvantagePlayerName() {
         return getScorePlayer1() > getScorePlayer2() ? getPlayer1().getName() : getPlayer2().getName();
     }
 

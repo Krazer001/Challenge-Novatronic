@@ -20,7 +20,7 @@ public class Score {
         } else {
             if (Math.max(scorePlayer1, scorePlayer2) > 3) {
                 int pointDifference = Math.abs(scorePlayer1 - scorePlayer2);
-                return (pointDifference == 1 ?  "Advantage " : "Game won by ") + game.getHighScorerPlayerName();
+                return (pointDifference == 1 ?  "Advantage " : "Game won by ") + game.getAdvantagePlayerName();
             } else {
                 return scoreMap.get(scorePlayer1) + " - " + scoreMap.get(scorePlayer2);
             }
