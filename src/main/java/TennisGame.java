@@ -67,7 +67,7 @@ public class TennisGame {
         return (Math.random() < 0.5) ? this.getPlayer1() : this.getPlayer2();
     }
 
-    private void incrementScore(Player player){
+    public void incrementScore(Player player){
 
         if(getPlayer1().equals(player)){
             this.setScorePlayer1(this.getScorePlayer1() + 1);
